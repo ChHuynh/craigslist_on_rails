@@ -1,0 +1,3 @@
+<h1> the category: <%= @category.subject %> </h1>
+<%= link_to 'create new article', new_category_article_url(@category.id) %>
+<%= render @articles %>
